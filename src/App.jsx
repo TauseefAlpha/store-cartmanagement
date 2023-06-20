@@ -8,6 +8,7 @@ import CartProviding from './components/CartProviding'
 import Index1 from './components/Index1'
 import Cart from './components/common/Cart'
 import ShowProduct from './components/showProduct'
+import Footer from './components/common/footer'
 import "./App.css"
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/showallproducts' element={<ShowProduct />} />
         <Route path='/carts' element={<Cart />} />
       </Routes>
+      <Footer />
     </div>
 
   )
